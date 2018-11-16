@@ -1,0 +1,87 @@
+
+<ol>
+<li>Introduction #</li></ol>
+
+<p>This is the documentation for This Is Snowboarding.</p>
+
+<ol>
+<li>Details #</li></ol>
+
+<p>Add your content here.  Format your content with:</p>
+<pre>
+ * Text in **bold** or _italic_
+ * Headings, paragraphs, and lists
+ * Automatic links to other wiki pages
+</pre>
+<p>Contents:</p>
+<pre>
+ * Architecture
+   * Game Engine ( Unity 3D ( <a class="externallink" href="https://unity3d.com/" rel="nofollow" title="https://unity3d.com/">https://unity3d.com/</a> <a class="externallink" href="https://unity3d.com/" rel="nofollow" title="https://hub.jmonkeyengine.org/">https://unity3d.com/</a>)).
+   * Core.
+   * Game (Entity-Component-System (ECS) ( <a class="externallink" href="https://en.wikipedia.org/wiki/Entity-component-system" rel="nofollow" title="https://en.wikipedia.org/wiki/Entity-component-system">https://en.wikipedia.org/wiki/Entity-component-system</a> ) ).
+   * GUI (AppState/Screen/ScreenController) (NiftyGUI ( <a class="externallink" href="https://github.com/nifty-gui/nifty-gui/wiki" rel="nofollow" title="https://github.com/nifty-gui/nifty-gui/wiki">https://github.com/nifty-gui/nifty-gui/wiki</a> )).
+</pre>
+<pre>
+ * CleanupManual
+   * StateManager normal order detach.
+   * Change behaviour to reverse order detach with CleanupManual.
+ * Is...Controlled (deprecated)
+   * All input types in the GameState.
+ * InputControllers
+   * All input types in seperate AppStates.
+ * GameObjects
+   * Grass Hill:
+     * SkyBox.
+     * Terrain.
+     * StartingPoint.
+   * Beach Resort:
+     * SkyBox.
+     * Terrain.
+     * StartingPoint.
+     * Beach House.
+     * Trees.
+</pre>
+<pre>
+ * Release procedure
+   * Update roadmap (items).
+   * Create tag in SVN. (not applicable)
+   * Update local copy. (not applicable)
+   * Copy dist folder locally.
+   * Rename files.
+   * Edit readme.txt.
+   * Pack readme.txt in archives.
+   * Upload archives.
+   * Send email with release annoucement.
+   * Update roadmap (header).
+</pre>
+<pre>
+ * Upgrade SDK/Engine
+   * Download new SDK.
+   * Current SDK
+     * Close project.
+     * Create a copy of the project.
+     * Uninstall SDK.
+   * New SDK
+     * Install SDK.
+     * Load copy of the project.
+     * Test copy of the project.
+     * Close copy of the project.
+     * Load current project.
+     * Test current project.
+</pre>
+<pre>
+ * Recreate project
+   * Backup mobile project. 
+   * Create temporary project
+     * Create project. 
+     * Create correct package/MainActivity.
+     * Copy temporary project files to master project. 
+     * Clean and build master project.
+     * Run master project.
+   * Create mobile project
+     * Create project.
+     * Merge files from mobile_backup. 
+   * Clean and build master project.
+   * Run master project.
+   * Delete temporary project.
+</pre>
